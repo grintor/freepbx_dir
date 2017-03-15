@@ -1,5 +1,5 @@
 <?php
-	$catagories = parse_ini_file("../billing.ini");
+	$catagories = parse_ini_file("./groups.ini");
 
 	require_once("/etc/freepbx.conf");
 	$mysqli = new mysqli($amp_conf['AMPDBHOST'], $amp_conf['AMPDBUSER'], $amp_conf['AMPDBPASS'], $amp_conf['AMPDBNAME']);
